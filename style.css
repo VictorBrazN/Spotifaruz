@@ -1,0 +1,19 @@
+body{
+    background: url(imagens/capa.png),
+                url(imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
+/* Barra de navegação */
+nav.navbar-transparente{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: white;
+}   
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
